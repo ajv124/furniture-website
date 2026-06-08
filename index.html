@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture4U</title>
+    <link rel="stylesheet" href="./style.css">
+    <!--fontawesome cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--navbar-->
+    <nav class="navbar">
+        <a class="brand" href=""><i class="fa-solid fa-couch"></i><span class="brandname"> Furniture4U</span></a>
+        <!--checkbox-->
+        <input type="checkbox" id="check">
+        <!--label include 2 icons-->
+        <label for="check" class="icons">
+            <!--menu icon-->
+            <i id="menuicon" class="fa-solid fa-bars"></i>
+            <!--close icon-->
+            <i id="cancelicon" class="fa-solid fa-x"></i>
+        </label>
+        <!--links-->
+        <ul class="navlinks">
+            <li class="links"><a href="#home" class="link">Home</a></li>
+            <li class="links"><a href="#products" class="link">Products</a></li>
+            <li class="links"><a href="#about" class="link">About</a></li>
+            <li class="links"><a href="#contact" class="link">Contact</a></li>
+        </ul>
+    </nav>
+    <!--hero section-->
+    <section id="home" class="hero">
+        <!--text content-->
+        <div class="heroText">
+            <h1 id="heroTitle">Modern Furniture For Your Home</h1>
+            <p id="heroPara">Discover stylish and comfortable furniture for your living room, bedroom and office.</p>
+            <button class="heroButton">Shop Now</button>
+        </div>
+        <!--image content-->
+        <div class="heroImage">
+            <img id="FurnitureImage" src="./images/furn1.png" alt="No Image">
+        </div>
+    </section>
+    <!--products section-->
+    <section id="products" class="products">
+        <!--heading-->
+        <h2 class="productHead">Our Products</h2>
+        <!--product container-->
+        <div class="productContainer">
+            <!--card1-->
+            <div class="card">
+                <!--image-->
+                <img class="cardImg" src="./images/chair.png" alt="no image">
+                <!--product name-->
+                <h3 class="productName">Chair</h3>
+                <!--price-->
+                <p class="price">$120</p>
+                <!--button-->
+                <button class="heroButton">Buy Now</button>
+            </div>
+            <!--card2-->
+            <div class="card">
+                <!--image-->
+                <img class="cardImg" src="./images/sofa.png" alt="no image">
+                <!--product name-->
+                <h3 class="productName">Sofa</h3>
+                <!--price-->
+                <p class="price">$160</p>
+                <!--button-->
+                <button class="heroButton">Buy Now</button>
+            </div>
+            <!--card3-->
+            <div class="card">
+                <!--image-->
+                <img class="cardImg" src="./images/table.png" alt="no image">
+                <!--product name-->
+                <h3 class="productName">Table</h3>
+                <!--price-->
+                <p class="price">$180</p>
+                <!--button-->
+                <button class="heroButton">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <!--banner-->
+    <section id="about" class="banner">
+        <!--heading-->
+        <h2 class="aboutHead">About Us</h2>
+        <p class="aboutPara">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vitae labore sapiente explicabo ex dicta unde sed porro rerum praesentium non architecto, modi a accusamus neque, laudantium ad nostrum deserunt nihil. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error minus minima alias et neque commodi nihil quasi quis nostrum expedita nulla, animi dolor placeat possimus amet perferendis temporibus, velit repellendus?</p>
+        <button class="heroButton aboutButton">Let's Talk</button>
+    </section>
+    <!--footer-->
+    <section id="contact" class="contact">
+        <div class="contactText">
+            <h3 class="contactHead">Contact Us</h3>
+            <h4 class="contactPh">9292929292</h4>
+            <p class="contactMail">info@gmail.com</p>
+            <div class="social">
+                <a class="smlink" href="https://www.bing.com/ck/a?!&&p=4b2c25d446cf68f122a95de33f253ff0872a61b600e8a2e68fa1d7a86c9f3037JmltdHM9MTc4MDQ0NDgwMA&ptn=3&ver=2&hsh=4&fclid=1b3a5722-1cb1-6aae-0734-40491d446bf8&psq=facebook&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tLw" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a class="smlink" href="https://www.bing.com/ck/a?!&&p=7a9fd5c2b01c0439a064f94735e15211203b715473e51617fb0a2005549cdd61JmltdHM9MTc4MDQ0NDgwMA&ptn=3&ver=2&hsh=4&fclid=1b3a5722-1cb1-6aae-0734-40491d446bf8&psq=x+twitter&u=a1aHR0cHM6Ly94LmNvbS8" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                <a class="smlink" href="https://www.bing.com/ck/a?!&&p=03629a6abe0a53ffc03c0fc88f7aa62746ff827fbdf1f7a777b7cf44c26980abJmltdHM9MTc4MDQ0NDgwMA&ptn=3&ver=2&hsh=4&fclid=1b3a5722-1cb1-6aae-0734-40491d446bf8&psq=instagram&u=a1aHR0cHM6Ly93d3cuaW5zdGFncmFtLmNvbS8" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="subscribe">
+            <h3 class="subscribeHead">Join Our Mail List</h3>
+            <div class="box">
+                <input type="text" placeholder="Email" class="subInput">
+                <button class="subButton">Subscribe</button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p> &copy;May 2026 Design by Luminar Technolab, All Rights Reserved. </p>
+    </footer>
+</body>
+</html>
