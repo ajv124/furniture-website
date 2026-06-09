@@ -10,6 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--aos animation cdn link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <!--navbar-->
@@ -41,7 +43,7 @@
             <button class="heroButton">Shop Now</button>
         </div>
         <!--image content-->
-        <div class="heroImage">
+        <div data-aos="zoom-out" class="heroImage">
             <img id="FurnitureImage" src="./images/furn1.png" alt="No Image">
         </div>
     </section>
@@ -52,7 +54,7 @@
         <!--product container-->
         <div class="productContainer">
             <!--card1-->
-            <div class="card">
+            <div data-aos="zoom-out" class="card">
                 <!--image-->
                 <img class="cardImg" src="./images/chair.png" alt="no image">
                 <!--product name-->
@@ -63,7 +65,7 @@
                 <button class="heroButton">Buy Now</button>
             </div>
             <!--card2-->
-            <div class="card">
+            <div data-aos="zoom-out" class="card">
                 <!--image-->
                 <img class="cardImg" src="./images/sofa.png" alt="no image">
                 <!--product name-->
@@ -74,7 +76,7 @@
                 <button class="heroButton">Buy Now</button>
             </div>
             <!--card3-->
-            <div class="card">
+            <div data-aos="zoom-out" class="card">
                 <!--image-->
                 <img class="cardImg" src="./images/table.png" alt="no image">
                 <!--product name-->
@@ -117,4 +119,10 @@
         <p> &copy;May 2026 Design by Luminar Technolab, All Rights Reserved. </p>
     </footer>
 </body>
+<!--aos animation cdn script-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--aos initialisation-->
+<script>
+  AOS.init();
+</script>
 </html>
